@@ -11,6 +11,7 @@ type ConfigFile struct {
 	ServerPort string `json:"server-port"`
 	ProxyHosts []struct {
 		Domain   string `json:"domain"`
+		Path     string `json:"path"`
 		Protocol string `json:"protocol"`
 		Host     string `json:"host"`
 		Port     string `json:"port"`

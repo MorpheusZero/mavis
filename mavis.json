@@ -3,6 +3,7 @@
   "proxy-hosts": [
     {
       "domain": "localhost",
+      "path": "/",
       "protocol": "http",
       "host": "10.0.0.4",
       "port": "8090"
