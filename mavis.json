@@ -1,0 +1,11 @@
+{
+  "server-port": "8080",
+  "proxy-hosts": [
+    {
+      "domain": "localhost",
+      "protocol": "http",
+      "host": "10.0.0.4",
+      "port": "8090"
+    }
+  ]
+}
